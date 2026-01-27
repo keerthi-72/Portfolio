@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PALAGIRI KEERTHI | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section class="hero">
+  <h1>PALAGIRI KEERTHI</h1>
+  <h3>FrontEnd Designer</h3>
+</section>
+
+<section class="section">
+  <h2>About Me</h2>
+  <p>
+    Driven computer science graduate with hands-on experience in software development,
+    web applications, ServiceNow solutions, and machine learning projects.
+    Seeking to contribute strong problem-solving, adaptability, and passion for scalable,
+    user-centric systems in a dynamic team environment.
+  </p>
+</section>
+
+<section class="section light">
+  <h2>Skills</h2>
+  <div class="skills">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>Java</span>
+    <span>Python</span>
+    <span>SQL</span>
+    <span>C</span>
+  </div>
+</section>
+
+<section class="section">
+  <h2 onclick="toggleAvatar()" class="clickable">My Favourite Avatar</h2>
+  <div id="avatarBox">
+    <img src="https://rukminim2.flixcart.com/image/480/480/kxjav0w0/poster/p/a/i/medium-rapunzel-home-princess-animation-cartoon-disney-matte-original-imag9yvgakpxrzws.jpeg?q=90">
+  </div>
+</section>
+
+<section class="section light">
+  <h2>My Hobbies</h2>
+  <div class="hobbies">
+    <p onclick="showHobby('cricket')">Watching Cricket</p>
+    <p onclick="showHobby('mytho')">Mythological Series</p>
+    <p onclick="showHobby('sleep')">Sleeping</p>
+  </div>
+  <div id="hobbyBox">
+    <img id="hobbyImg">
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email ID" required>
+    <input type="tel" placeholder="Phone Number">
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
