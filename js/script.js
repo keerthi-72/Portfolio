@@ -8,5 +8,5 @@ document.getElementById("hobbyImg").innerHTML =
 }
 function showMusic(){
 document.getElementById("hobbyImg").innerHTML =
-'<img src="https://i.pinimg.com/564x/92/14/14/9214148d71059266d22b8383c7cf7606.jpg" width="300">';
+'<img src="assets/images/Music.jpg" width="300">';
 }
